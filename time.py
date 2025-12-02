@@ -1,7 +1,7 @@
 import numpy as np
 from keras.models import load_model
 import time  # 导入时间模块
-
+#随机种子
 # 加载预训练模型
 net6 = load_model('./saved_model/6_1_sc_distinguisher.h5')
 
@@ -45,4 +45,5 @@ def test_average_time(net, num_tests=100):
     return total_time / num_tests
 
 avg_time = test_average_time(net6, num_tests=100)
+
 print(f"Average time for single ciphertext pair prediction: {avg_time:.6f} seconds")
