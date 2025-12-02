@@ -9,7 +9,7 @@ from os import urandom
 from math import sqrt, log, log2
 from time import time
 from math import log2
-
+#修改参数
 WORD_SIZE = sp.WORD_SIZE();
 
 neutral13 = [22, 21, 20, 14, 15,  7, 23, 30,  0, 24,  8, 31,  1];
