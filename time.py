@@ -48,3 +48,4 @@ avg_time = test_average_time(net6, num_tests=100)
 
 print(f"Average time for single ciphertext pair prediction: {avg_time:.6f} seconds")
 
+
