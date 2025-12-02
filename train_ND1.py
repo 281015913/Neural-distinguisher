@@ -15,7 +15,7 @@ from keras import backend as K
 from keras.regularizers import l2
 from keras.layers import LSTM
 from tensorflow.keras.layers import LSTM, Dropout
-
+#1
 """
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID" 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1" # 使用第二块GPU（从0开始）
