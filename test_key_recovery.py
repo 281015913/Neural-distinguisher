@@ -9,7 +9,7 @@ from os import urandom
 from math import sqrt, log, log2
 from time import time
 from math import log2
-#修改参数122
+#修改参数1221
 
 WORD_SIZE = sp.WORD_SIZE();
 
